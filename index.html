@@ -1,35 +1,155 @@
 <!DOCTYPE html>
 <html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+<head>
+      <meta charset = "UTF=8">
+            <title> David Titzer Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <div class="style">
+  <style>
 
+    html {
+      min-height: 100%;
+    }
+    body {
+     padding-top: 40px;
+     padding-bottom: 40px;
+      background: linear-gradient(195deg, #ff00c3, #d123ba, #a42dab, #7b2f97, #552b80, #342465, #181a48, #050b2b);
+      font-family: "Comic Sans MS";
+     font-size: 20px;
+        color: rgba(255, 255, 255, 1.0);
+     font-weight: 900;
+}
 
-  <head>
-    <h1> David Titzer's Homepage</h1>
-    <title> The Titzer Tunnel</title>
-    <meta charset = "UTF=8">
-    
+.main-container {
+  max-width: 600px;
+  margin: auto;
+}
+.image-row{
+        margin-bottom: 20px;
+      text-align: center;
+   
+}
+
+.social-icons-row{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+    border-radius: 1000px;
+    /*background-color: rgba(149, 123, 173, 0.5);*/
+}
+.name-row{
+  margin-bottom: 20px;
+  text-align: center;
+    font-size: 30px;
+  font-weight: 900;
+}
+.links-row{
+    margin-bottom: 20px;
+  text-align: center;  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+    .avatar-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+
+      
+    }
+  .header{
+      margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+    border-radius: 1000px;
+    background-color: rgba(149, 123, 173, 0.5);
+  }
+      .link-text {
+      text-align: center;
+      flex-grow: 1;
+    }
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+    .item {
+      background-color: rgba(149, 123, 173, 0.5);
+      border-radius: 1000px;
+      padding: 5px;
+      padding-right: 53px;
+      box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+    }
+        a {
+      color: rgba(255, 255, 255, 1.0);
+      text-decoration: none;
+    }
+  </style>
+</div>
+
 
   </head>
 
+<body>
 
-  <body>
-    <div class="Main">
-
-      <div class="Headshot" style="border: 2px black solid;">
-            
-
-    </>
-        <h2>ADVENTURE!</h2>
-        <img src ="/Images/daniela-kokina-hOhlYhAiizc-unsplash.jpg" alt="Adventure" width="300" height="400">
-      </div><!--Headshot-->
+  <div class="main-container">
+    <style>
+        .body{    width: 640px;
+     margin: auto;}
 
 
-      <div class="Links" style="border: 2px black solid;">
-        <h2>LINKS</h2>
-      </div><!--links-->
+    </style>
+    <div class="image-row">
+      <img src="/Images/fishing.jpg" alt="Mountain Picture" class="avatar-image">
+    </div>
+
+    <div class="name-row">
+      David Titzer
+    </div>
+
+    <div class="social-icons-row">
+      <a href="https://github.com/DavidTitzer" target="_blank">
+                <i class="fa-brands fa-github"></i>
+        <span class="link=text">
+            GitHub
+        </span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/david-titzer-426424241/?isSelfProfile=true" target="_blank">
+                 <i class="fa-brands fa-linkedin"></i>
+                <span class="link=text">
+            LinkedIn
+        </span>
+      </a>
+
+    </div>
+
+    <div class="links-row">
+      <a class="item" target="_blank" href="https://www.exploreminnesota.com/destinations/boundary-waters">
+        <img src="/Images/josh-hild-LuCWEh0nb5s-unsplash.jpg" class="thumbnail">
+
+        <span class="link-text">
+          Boundary Waters - MN
+        </span>
+      </a>
+
+      <a class="item" target="_blank" href="https://www.nps.gov/jotr/index.htm">
+        <img src="/Images/joshua.jpg" class="thumbnail">
+
+        <span class="link-text">
+          Jushua Tree - CA
+        </span>
+      </a>
+      
+
+      <!-- Etc etc, for as many items as you want in your list -->
+
+    </div> <!-- links-row -->
+  </div> <!-- main-container -->
+</body>
 
 
-    </div> <!--Main-->
-  
-
-  </body>
 </html>
